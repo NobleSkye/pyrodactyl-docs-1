@@ -353,6 +353,9 @@ Once you've got your stuff working. your free to go
 ## Troubleshooting
 Common Elytra installation issues and their solutions. Read all commands carefully before running them.
 
+
+### `failed to create pyrodactyl system user error=exit status 4`
+
 If Elytra refuses to start because it cannot create the `pyrodactyl` system user (you will see logs mentioning `failed to create pyrodactyl system user error=exit status 4`), you can manually provision the account. Confirm that the user is missing before running the commands below (e.g., `sudo getent passwd pyrodactyl`).
 
 <Tabs items={"Fedora,Ubuntu,Debian,Rocky,RHEL,Arch".split(',')}>
